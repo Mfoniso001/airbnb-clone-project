@@ -1,97 +1,92 @@
-AirBnB Clone Project
+Airbnb Clone Project
 
-A full-stack clone of the AirBnB platform. This project allows users to browse property listings, view detailed information, and complete bookings.
+Project Overview
 
-Tech Stack
-
-Frontend: HTML, CSS, JavaScript (React)
-
-Backend: Node.js/Express (planned)
-
-Database: PostgreSQL/MongoDB (planned)
-
-Design: Figma
-
-Version Control: Git & GitHub
-
-Features (Planned)
-
-Property search and filtering
-
-Property details view
-
-Secure booking and checkout
-
-User authentication
+This project is a simplified Airbnb clone designed to mimic the core functionalities of the Airbnb platform. It focuses on property listings, property detail views, and a basic booking checkout system. The goal is to practice building a full-stack application with proper planning, design, and development workflows.
 
 UI/UX Design Planning
+
 Design Goals
 
-Provide an intuitive and seamless booking flow
+Deliver a clean, modern interface inspired by Airbnb’s real platform.
 
-Maintain a consistent and modern visual design
+Ensure responsiveness across desktop and mobile devices.
 
-Ensure fast loading times and responsiveness
-
-Focus on mobile-first design for accessibility
+Provide a simple and intuitive booking flow for users.
 
 Key Features
 
-Search and filter properties easily
+Browse property listings with clear visuals.
 
-View detailed property information (images, amenities, location)
+View detailed property information.
 
-Secure checkout and booking confirmation
-
-Support for user authentication (login, signup, profile)
+Book a property with a simplified checkout process.
 
 Primary Pages
-Page	Description
-Property Listing View	Grid view of available properties with search and filter options
-Listing Detailed View	Complete property details, including images, pricing, and booking form
-Simple Checkout View	Streamlined booking process with payment and confirmation
+
+Page
+
+Description
+
+Property Listing View
+
+Displays a grid or list of available properties with thumbnails, titles, prices, and brief descriptions.
+
+Listing Detailed View
+
+Provides more details including images, amenities, host information, and reviews.
+
+Simple Checkout View
+
+Allows the user to confirm booking details, input personal information, and finalize the booking.
+
 Importance of User-Friendly Design
 
-A user-friendly booking system minimizes friction during the customer journey. It improves satisfaction, increases trust, and raises conversion rates by ensuring:
+A user-friendly design is essential in a booking system because it:
 
-Clear navigation
+Reduces friction in navigation.
 
-Easy-to-use forms
+Improves trust and credibility.
 
-Consistent design patterns
-
-Responsive layouts across devices
+Enhances overall user satisfaction, leading to higher conversions.
 
 Figma Design Specifications
 
 Color Styles
 
-Primary: #FF5A5F
+Primary Color: #FF385C (Airbnb pink/red)
 
-Secondary: #008489
+Secondary Color: #008489 (teal)
 
-Background: #FFFFFF
+Neutral Colors: Various shades of gray (#222222, #717171, #EBEBEB)
 
-Text: #222222
-
-Secondary Text: #717171
+Background: White (#FFFFFF)
 
 Typography
 
-Primary Font: Circular, Medium 500, 16px
+Font Family: Circular (Airbnb’s brand font) or fallback to sans-serif.
 
-Headings: Circular, Bold 700, 24–32px
+Font Weights: Regular (400), Medium (500), Bold (700).
 
-Secondary Text: Circular, Book 400, 14px
+Font Sizes:
+
+Headings: 24px – 32px
+
+Subheadings: 18px – 20px
+
+Body Text: 14px – 16px
 
 Importance of Identifying Design Properties
 
-Understanding design properties such as colors and typography ensures consistency across the application. By following a defined design system, developers and designers can:
+Identifying design properties ensures consistency, scalability, and developer clarity. It bridges the gap between design and development, helping maintain a unified look and feel throughout the project.
 
-Maintain brand identity
-
-Improve accessibility and readability
-
-Speed up development with reusable patterns
-
-Provide a professional, cohesive user experience. 
+Project Roles and Responsibilities
+Role	Responsibilities
+Project Manager	Oversees timeline, coordinates team, manages deliverables
+Frontend Developers	Implements UI components, ensures responsive design
+Backend Developers	Builds APIs, manages database, implements business logic
+Designers	Creates mockups, maintains design system, ensures UX quality
+QA/Testers	Writes test cases, performs testing, reports bugs
+DevOps Engineers	Manages deployment, CI/CD pipeline, server infrastructure
+Product Owner	Defines requirements, prioritizes features, represents stakeholders
+Scrum Master	Facilitates agile processes, removes blockers, organizes meetings.
